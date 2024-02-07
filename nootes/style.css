@@ -1,0 +1,87 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  font-size: 1rem;
+  overflow: hidden;
+  background-color: #1c1e26;
+  color: white;
+}
+.box-note {
+  width: 1100px;
+  margin:auto;
+  max-width: 100%;
+}
+
+.box-note h1 {
+text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+}
+.box-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.box-form input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+
+}
+.box-form button  {
+  padding: 10px;
+  font-size: 18px;
+  border: 0;
+  color: white;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #5046e6;
+  width: 180px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#content-note {
+  font-size: 18px;
+  padding: 10px;
+  color: #000000;
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+  resize: none;
+  outline: 0;
+
+}
+#output {
+  display: flex;
+  flex-wrap: wrap;
+}
+#output .item {
+  width: 33.33%;
+  flex: 0 0 auto;
+  background-color: #e84393;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+#output .item button {
+  float: right;
+  width: auto;
+  padding: 10px;
+}
+#output .item h2{
+  font-size: 16px;
+}
+#output .item p {
+font-size: 14px;
+}
